@@ -1,0 +1,22 @@
+:host ::ng-deep {
+  .toolbar-item-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .item {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .image-icon {
+    width: 25px;
+    height: 25px;
+  }
+
+  .active-link {
+    border: 1px solid;
+  }
+}

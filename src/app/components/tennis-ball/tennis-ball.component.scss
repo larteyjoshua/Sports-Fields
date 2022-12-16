@@ -1,0 +1,55 @@
+:host ::ng-deep {
+  .blue-field {
+    display: flex;
+    margin-top: 5px;
+    justify-content: center;
+    width: 100%;
+    background-color: orangered;
+  }
+
+  .field-area {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin: 30px;
+    width: 95%;
+    height: 600px;
+    border-color: white;
+    border-style: solid;
+    border-width: 4px;
+    background-color: green;
+  }
+
+  .net-line {
+    position: absolute;
+    border-left: 8px solid white;
+    height: 596px;
+    left: 50%;
+  }
+
+  .field-division {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .left-service-line {
+    position: absolute;
+    border-left: 4px solid white;
+    height: 596px;
+    left: 400px;
+  }
+
+  .right-service-line {
+    position: absolute;
+    border-left: 4px solid white;
+    height: 596px;
+    right: 400px;
+  }
+
+  .center-service-line {
+    position: absolute;
+    border-top: 4px solid white;
+    width: 720px;
+    top: 420px;
+  }
+}
